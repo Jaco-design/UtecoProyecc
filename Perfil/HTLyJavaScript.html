@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pimer pagina con script</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendiendo desarrollo web</h1> 
+    <p> Has Click en el boton para Iniciar</p>
+    <button onclick="startUp()">Iniciar</button>
+    <p>para volver al portafolio</p>
+    <a href="../MiniPortafolio/index.html">Volver al portafolio</a>
+
+    <script>
+        function startUp() {
+            window.location.href = "index1.html";
+        }
+    </script>
+</body>
+</html>
+
