@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio web personal de Rafely Aracena, estudiante de Ingeniería de Software en UTECO. Proyectos de desarrollo web, HTML5, CSS3 y JavaScript.">
+    <meta name="author" content="Rafely Aracena">
+    <title>Rafely Aracena | Portafolio Web</title>
+
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Hoja de Estilos -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- Encabezado Principal -->
+    <header>
+        <h1>Hola, mi nombre es Rafely Aracena</h1>
+        <p>Bienvenidos a mi portafolio web. Aquí comparto mi progreso, proyectos y aprendizajes en el mundo del desarrollo de software.</p>
+    </header>
+
+    <!-- Barra de Navegación -->
+    <nav>
+        <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <main>
+        <!-- Sección: Sobre Mí -->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <div class="about-container">
+                <img src="assets/img/perfil.jpeg" alt="Fotografía de Rafely Aracena" class="profile-img" loading="lazy">
+                <div class="about-text">
+                    <p>Soy estudiante de <strong>Ingeniería de Software</strong> en la <strong>Universidad Tecnológica del Cibao Oriental (UTECO)</strong>. Me apasiona el desarrollo web, la creación de aplicaciones funcionales y explorar el campo de la ciberseguridad.</p>
+                    <p>Me considero una persona creativa, curiosa y con un compromiso continuo por aprender nuevas tecnologías, resolver problemas complejos y escribir código limpio y bien estructurado.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección: Proyectos -->
+        <section id="proyectos">
+            <h2>Proyectos Realizados</h2>
+            <div class="projects-grid">
+                
+                <!-- Proyecto 1: Biografía -->
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <h3>Biografía Personal</h3>
+                    </div>
+                    <div class="project-card-body">
+                        <div class="tech-tags">
+                            <span class="badge">HTML5</span>
+                            <span class="badge">Semántica Web</span>
+                            <span class="badge">CSS3</span>
+                        </div>
+                        <p>Página estructurada con buenas prácticas de HTML semántico donde detallo mi trayectoria, gustos personales, pasatiempos y objetivos a futuro en el sector tecnológico.</p>
+                        <a href="pages/biografia.html" class="btn">Ver Proyecto</a>
+                    </div>
+                </article>
+
+                <!-- Proyecto 2: Sensor de Temperatura y Humedad -->
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <img src="assets/img/sensor.png" alt="Captura del sistema de sensor de temperatura y humedad" loading="lazy">
+                    </div>
+                    <div class="project-card-body">
+                        <h3>Sensor de Temperatura y Humedad</h3>
+                        <div class="tech-tags">
+                            <span class="badge">JavaScript</span>
+                            <span class="badge">PHP</span>
+                            <span class="badge">IoT</span>
+                        </div>
+                        <p>Proyecto interactivo que integra hardware y desarrollo web para la lectura, recepción y visualización de datos de temperatura y humedad en tiempo real.</p>
+                        <button class="btn btn-accent" disabled title="Proyecto en demostración física">Hardware Activo</button>
+                    </div>
+                </article>
+
+                <!-- Proyecto 3: Práctica de JavaScript y DOM -->
+                <article class="project-card">
+                    <div class="project-card-header">
+                        <h3>Interacción Dinámica Web</h3>
+                    </div>
+                    <div class="project-card-body">
+                        <div class="tech-tags">
+                            <span class="badge">JavaScript</span>
+                            <span class="badge">Eventos DOM</span>
+                            <span class="badge">HTML5</span>
+                        </div>
+                        <p>Ejercicio introductorio con JavaScript enfocado en el manejo de eventos de clic en botones, manipulación de funciones y redirecciones dinámicas entre páginas.</p>
+                        <a href="pages/practica-js.html" class="btn">Ver Práctica</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Sección: Contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¿Te gustaría ponerte en contacto o ver más sobre mi trabajo? Puedes encontrarme en mis redes sociales y repositorios:</p>
+            
+            <div class="contact-links">
+                <a href="https://github.com/Jaco-design?tab=repositories" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <h3>GitHub</h3>
+                    <p>Explora mis repositorios, código fuente y colaboraciones.</p>
+                </a>
+                <a href="https://www.instagram.com/the___jaco/" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <h3>Instagram</h3>
+                    <p>Conéctate conmigo y sigue mi día a día personal y formativo.</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2026 Rafely Aracena. Estudiante de Ingeniería de Software - UTECO. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

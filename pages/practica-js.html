@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica con JavaScript | Rafely Aracena</title>
+
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Hoja de Estilos -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Práctica de Interacción con JavaScript</h1>
+        <p>Ejercicio introductorio de manejo del DOM y navegación dinámica con funciones en JavaScript.</p>
+    </header>
+
+    <main>
+        <section style="text-align: center; max-width: 600px; margin: 40px auto;">
+            <h2>Aprendiendo Desarrollo Web</h2>
+            <p style="margin: 20px 0; color: var(--text-muted);">
+                Haz clic en el siguiente botón para ejecutar la función de JavaScript y navegar hacia la página de complemento:
+            </p>
+
+            <button onclick="startUp()" class="btn btn-accent" style="font-size: 1.1rem; padding: 12px 28px;">
+                🚀 Iniciar Interacción
+            </button>
+
+            <div style="margin-top: 35px; border-top: 1px solid var(--border-color); padding-top: 20px;">
+                <a href="../index.html" class="btn">← Volver al Portafolio</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Rafely Aracena. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function startUp() {
+            // Redirección relativa a la página de complemento
+            window.location.href = "complemento.html";
+        }
+    </script>
+</body>
+</html>
