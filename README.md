@@ -1,10 +1,10 @@
-# 🌐 Portafolio Web Personal - Rafely Aracena
+# Portafolio Web Personal - Rafely Aracena
 
 ¡Bienvenido a mi repositorio personal! Este proyecto contiene mi **Portafolio Web**, donde presento mi trayectoria, habilidades, prácticas académicas y proyectos desarrollados como estudiante de **Ingeniería de Software** en la **Universidad Tecnológica del Cibao Oriental (UTECO)**.
 
 ---
 
-## 🚀 Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 * **HTML5:** Maquetación semántica, accesibilidad y optimización para buscadores (SEO básico).
 * **CSS3:** Diseño responsivo con Flexbox, CSS Grid, variables personalizadas y adaptabilidad para dispositivos móviles.
@@ -13,7 +13,7 @@
 
 ---
 
-## 📂 Estructura del Proyecto
+##  Estructura del Proyecto
 
 El repositorio está organizado siguiendo las mejores prácticas de la industria para proyectos web estáticos:
 
@@ -40,7 +40,7 @@ UtecoProyecc/
 
 ---
 
-## 💻 Proyectos Destacados en el Portafolio
+## Proyectos Destacados en el Portafolio
 
 1. **Biografía Personal:**  
    Página semántica con mi perfil personal, pasatiempos y metas profesionales como futuro desarrollador de software.
@@ -50,33 +50,6 @@ UtecoProyecc/
    Práctica de navegación e interactividad basada en eventos DOM.
 
 ---
-
-## 🖥️ Cómo Visualizar el Proyecto Localmente
-
-No se requiere ningún servidor complejo para probar este portafolio:
-
-1. Clona este repositorio o descarga el archivo ZIP:
-   ```bash
-   git clone https://github.com/Jaco-design/UtecoProyecc.git
-   ```
-2. Abre la carpeta del proyecto en tu editor de preferencia (por ejemplo, **VS Code**).
-3. Haz doble clic en el archivo `index.html` o utiliza la extensión **Live Server** para previsualizarlo en tu navegador.
-
----
-
-## 🌍 Cómo Publicar este Portafolio en GitHub Pages
-
-Para tener este portafolio disponible en internet de manera gratuita:
-
-1. Ve a la pestaña **Settings** (Configuración) de este repositorio en GitHub.
-2. En la barra lateral izquierda, selecciona la opción **Pages**.
-3. En **Build and deployment > Source**, elige **Deploy from a branch**.
-4. En **Branch**, selecciona `main` y en la carpeta elige `/ (root)`.
-5. Haz clic en **Save**. En un par de minutos tu portafolio estará disponible en una URL como:
-   `https://jaco-design.github.io/UtecoProyecc/`
-
----
-
 ## 👤 Contacto y Redes
 
 * **Autor:** Rafely Aracena
